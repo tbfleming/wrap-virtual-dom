@@ -1,0 +1,17 @@
+{
+  "name": "wrap-virtual-dom",
+  "version": "1.0.0",
+  "description": "Wrap virtual-dom so it can work with ChiliPeppr",
+  "scripts": {
+    "build": "browserify index.js | uglifyjs > wrap-virtual-dom.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbfleming/wrap-virtual-dom.git"
+  },
+  "author": "Todd Fleming",
+  "license": "MIT",
+  "dependencies": {
+    "virtual-dom": "^2.1.1"
+  }
+}
